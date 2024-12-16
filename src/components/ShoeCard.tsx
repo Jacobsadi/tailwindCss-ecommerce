@@ -15,7 +15,11 @@ const ShoeCard: React.FC<Props> = ({
   return (
     <div
       className={`border-2 rounded-xl  max-sm:flex-1 cursor-pointer
-         ${bigShoeImg === imgURL ? "border-coral-red" : "border-transparent"}`}
+         ${
+           bigShoeImg === imgURL.bigShoe
+             ? "border-coral-red"
+             : "border-transparent"
+         }`}
       onClick={handleClick}
     >
       <div className="flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
