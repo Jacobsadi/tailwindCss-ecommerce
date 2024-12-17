@@ -38,7 +38,6 @@ const Hero = () => {
           ))}
         </div>
       </div>
-
       <div className=" relative flex items-center justify-center flex-col flex-1 xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
         <img
           src={bigShoeImg}
