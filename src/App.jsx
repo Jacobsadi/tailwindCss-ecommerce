@@ -2,7 +2,7 @@
 import Nav from './components/Nav';
 import {
   CustomerReviews,
-  Footer, Hero, PopularProducts, Services, SpeacialOffer, Subscribe,
+  Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe,
   SuperQuality
 } from './sections';
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
       <Services />
     </section>
     <section className="padding ">
-      <SpeacialOffer />
+      <SpecialOffer />
     </section>
     <section className="bg-pale-blue padding ">
       < CustomerReviews />
